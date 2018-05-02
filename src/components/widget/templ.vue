@@ -5,7 +5,7 @@
         :visible.sync="vis"
         width="30%"
         :before-close="handleClose">
-        <span>This is a message about testing component.</span>
+        <span>This is a message about testing component...</span>
         <span slot="footer" class="dialog-footer">
             <el-button @click="close">Cancel</el-button>
             <el-button type="primary" @click="close">True</el-button>
